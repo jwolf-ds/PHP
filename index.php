@@ -4,6 +4,16 @@
 
 Basic interface and class in PHP oriented object.
 
+-- An interface class called Car containing only a single method, finalCost();
+-- A class, Chevy, that implements Car with a protected variable called cost and a constructor which 
+   takes the cost in argument and sets it. Uses the method finalCost() which takes in argument a tax 
+   percentage and returns the final cost of the car in $ using the cost set when the object is initialized.
+-- Uses the Chevy class to get the cost of a Chevy with a tax of 12% and the initial cost of 20000. 
+   Echo the cost in the screen.
+-- Runtime execution below as well.
+-- A class called Ford which implements Car and have the cost calculated witha handling fee attached to it 
+   of $1,000 to be calculated before tax.
+
 ***************************************************/
 
 interface Car {
